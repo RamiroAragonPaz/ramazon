@@ -27,9 +27,9 @@ const Navigation = ({ accountSliced }) => {
                 </button>)
                 }
             <ul className='nav__links'>
-                <li><Link to={`/`}><a href="#Clothing&Jewelry">Clothing & Jewelry</a></Link></li>
-                <li><Link to={`/`}><a href="#Electronics & Gadgets">Electronics & Gadgets</a></Link></li>
-                <li><Link to={`/`}><a href="/#Toys & Gaming">Toys & Gaming</a></Link></li>
+                <li><Link to={`/ramazon`}><a href="#Clothing&Jewelry">Clothing & Jewelry</a></Link></li>
+                <li><Link to={`/ramazon`}><a href="#Electronics & Gadgets">Electronics & Gadgets</a></Link></li>
+                <li><Link to={`/ramazon`}><a href="/#Toys & Gaming">Toys & Gaming</a></Link></li>
                 <li><Link to={`/NewProduct`}>Sell Products</Link></li>
             </ul>
 

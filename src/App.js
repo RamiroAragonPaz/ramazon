@@ -128,7 +128,7 @@ function App() {
         <Routes>
         <Route path="*" element={<Home />} />
          <Route path='/Dashboard' element={<Dashboard getProviderOrSigner={getProviderOrSigner} toggle={toggle} togglePop={togglePop} />}/>
-         <Route path='/' element={<Home />}/>
+         <Route path='/ramazon' element={<Home />}/>
          <Route path='/NewProduct' element={<NewProduct getProviderOrSigner={getProviderOrSigner}/>}/>
         </Routes>
         </BrowserRouter> 
